@@ -14,10 +14,22 @@ namespace Advertisement
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+               name: "Intranet",
+               url: "Intranet/{controller}/{action}/{id}",
+               defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+           );
+
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+
+           
+
+            //routes.Add("MyRoute", newRoute("{controller}/{action}", new MvcRouteHandler()));
         }
     }
 }

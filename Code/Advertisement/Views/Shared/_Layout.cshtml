@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <title>@ViewBag.Title - 广告设计公司</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         @Styles.Render("~/Content/css")
@@ -12,17 +12,23 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                    <a href="~/Home/Index">
+                    <img src="~/Content/image/logo.jpg"/></a>
+                    @*<p class="site-title">@Html.ActionLink("公司logo位置", "Index", "Home")</p>*@
                 </div>
                 <div class="float-right">
-                    <section id="login">
+                    @*<section id="login">
                         @Html.Partial("_LoginPartial")
-                    </section>
+                    </section>*@
+                    <section></section>
                     <nav>
                         <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("首页", "Index", "Home")</li>
+                            <li>@Html.ActionLink("关于", "About", "Home")</li>
+                            <li>@Html.ActionLink("案例", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("核心服务", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("客户", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("联络", "Contact", "Home")</li>
                         </ul>
                     </nav>
                 </div>
@@ -37,7 +43,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+                    <p>&copy; @DateTime.Now.Year - 硕美传媒</p>
                 </div>
             </div>
         </footer>
