@@ -175,6 +175,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\image\logo.jpg" />
+    <Content Include="Content\image\pic.gif" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\css.css" />
+    <Content Include="Content\themes\base\images\dian.png" />
+    <Content Include="Content\image\email.png" />
+    <Content Include="Content\themes\base\images\f1.gif" />
+    <Content Include="Content\themes\base\images\goto_top.jpg" />
+    <Content Include="Content\image\InvestGames.png" />
+    <Content Include="Content\themes\base\images\left.png" />
+    <Content Include="Content\themes\base\images\p14b.png" />
+    <Content Include="Content\image\phone.png" />
+    <Content Include="Content\image\qq.png" />
+    <Content Include="Content\themes\base\images\right.png" />
+    <Content Include="Content\themes\base\images\qq.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -188,6 +202,7 @@
     <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
     <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\image\wechat.png" />
     <Content Include="Content\themes\base\jquery-ui.css" />
     <Content Include="Content\themes\base\jquery.ui.accordion.css" />
     <Content Include="Content\themes\base\jquery.ui.all.css" />
@@ -229,6 +244,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\themes\base\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -246,6 +262,7 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\website\layout.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

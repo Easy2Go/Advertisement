@@ -1,0 +1,172 @@
+﻿@charset "utf-8";
+
+/*body结构*/
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,form,fieldset,img,dl,dt,dd,em,border,bt,input,p{margin:0;padding:0}
+
+body{color:#7b7a7a;font-family:"Microsoft YaHei", "微软雅黑";font-size:12px;margin:0px auto;background:#fff}
+
+img{border:0px}
+
+div{margin:0 auto}
+
+/* 浮动 */
+
+.left{float:left}.right{float:right}
+
+/* 延伸 */
+
+.m_left10{margin-left:10px}.m_top10{margin-top:10px}.m_bottom10{margin-bottom:10px}.m_right10{margin-right:10px}.m_bottom06{margin-bottom:6px}.m_right5{margin-right:5px}
+
+/* 延内容 */
+
+.p_left10{padding-left:10px}.p_top10{padding-top:10px}.p_bottom10{padding-bottom:10px}.p_right10{padding-right:10px}
+
+/* 消除浮动 */
+
+.clear{clear:both;*display:inline;/*IE only*/}
+
+/* 加粗 */
+
+.bold{font-weight:bold}
+
+.Arial{font-family:Arial}
+
+.st{font-family:"宋体"}
+
+.text2em{text-indent:2em}
+
+.align-right{text-align:right}
+
+.f12{font-size:12px}.f14{font-size:14px}.f15{font-size:15px}.f16{font-size:16px}.f18{font-size:18px}.f22{font-size:22px}
+
+.cen{text-align:center}
+
+/*链接颜色*/
+
+a:link,a:visited{text-decoration:none}
+
+a:hover{color:#c90e21}
+
+body,a,.c1{color:#7b7a7a}.c2{color:#9fa0a0}
+
+/* ul li */
+
+ul{height:auto;list-style:none}
+
+.menu{}
+
+.menu ul{height:auto;list-style:none}
+
+.menu ul li{display:inline;height:auto;width:auto}
+
+/*页面头部*/
+
+#Header{width:1280px;height:auto}
+
+.top1{width:1280px;height:auto;}
+
+.top1a{width:1280px;height:90px;background:#fff}
+
+.top2{width:183px;height:49px;padding-top:30px;float:left}
+
+.top3{width:760px;height:90px;float:right}
+
+.top4{width:100px;padding:25px 0 18px 0;float:right;text-align:right}
+
+.top5{line-height:16px;font-size:16px;float:right}
+
+.top5 ul li{display:inline;padding-left:40px}
+
+/*主体内容*/
+
+#Box{width:1280px;height:auto}
+
+/*页面底部*/
+
+#Footer{width:1280px;height:auto}
+
+.Footer1{width:1170px; height:368px; padding:33px 55px 0 55px; background:#575959;color:#9fa0a0}
+
+.Footer1 a
+
+{
+
+ color:#9fa0a0;
+
+}
+
+.Footer2{width:640px; height:233px; float:left}
+
+.Footer3{width:530px; height:234px; float:left}
+
+.Footer4,.Footer5{border-bottom:#d60000 1px solid; color:#c9caca; font-size:16px; margin-bottom:25px; height:37px;}
+
+.Footer4{width:621px;}
+
+.Footer5,.Footer6{width:461px; margin-left:51px}
+
+.Footer6{line-height:24px; font-size:14px;}
+
+.Footer7{width:1170px; height:84px; padding:27px 0 23px 0; border-top:#3b3b3b 1px solid}
+
+.Footer8{width:207px; float:left}
+
+.Footer9{width:156px; height:39px; background: url(images/f1.gif) 145px 0 no-repeat #696b6b; line-height:39px;padding-left:21px; float:left; color:#c9caca}
+
+.Footer10{width:950px; height:84px; float:right}
+
+.Footer10 ul li{font-size:13px; display:inline; padding:0 3px;line-height:25px}
+
+.Footer11{width:1230px;height:67px; background:#3b3d3d; color:#7e7e7e; line-height:67px; font-size:13px; position:relative; padding-left:50px}
+
+.Footer11 a
+
+{
+
+  color:#7e7e7e;
+
+}
+
+.Footer11 ul li{ display:inline; padding:0 5px;}
+
+.Footer12{ width:48px; height:10px; position:absolute; right:59px; top:28px}
+
+
+
+/*头部浮动栏目*/
+
+.menu-flooo{position:fixed;_position:absolute;top:0px;_top:auto;z-index:9999; width:1280px; background:#fff}
+
+*html{background-image:url(about:blank);background-attachment:fixed}/*解决IE6下滚动抖动的问题*/
+
+
+
+/*右边浮动栏目*/
+.lyl1{ width:254px; height:469px; border:#ccc 1px solid; padding:50px 34px 0 37px; position:absolute; right:50px;bottom:365px; z-index:999; background:#fff; overflow:hidden;background-attachment:fixed}
+
+.lyl2{ width:254px; height:36px; border-bottom:#ccc 1px solid}
+
+.lyl3{ width:199px; height:14px; padding:5px}
+
+.lyl4{ width:244px; height:126px; padding:5px}
+
+.lyl5{ width:98px; height:23px; border:#ccc 1px solid}
+
+
+
+/*右边浮动栏目*/
+
+#qq,#gotop{width:54px;height:54px;cursor:pointer;position:absolute;_bottom:auto;_top}
+
+
+
+#qq{bottom:50px; background:url(images/qq.jpg) no-repeat}
+
+#qq:hover{width:50px;height:54px; background:url(images/qq.jpg) -54px 0 no-repeat}
+
+#gotop{bottom:104px; background:url(images/goto_top.jpg) no-repeat}  
+
+#gotop:hover{background:url(images/goto_top.jpg) -54px 0 no-repeat}  
+
+.float{width:50px;bottom:0px;position:fixed;_position:absolute;right:0px;z-index:999;}

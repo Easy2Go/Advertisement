@@ -1,54 +1,181 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>@ViewBag.Title - 广告设计公司</title>
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="description" content="广告设计公司"/>
+        <meta name="keywords" content="logo 设计"/>
         <meta name="viewport" content="width=device-width" />
-        @Styles.Render("~/Content/css")
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        @*@Styles.Render("~/Content/css")*@
+        @Styles.Render("~/Content/themes/base/customer")
         @Scripts.Render("~/bundles/modernizr")
     </head>
     <body>
-        <header>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <a href="~/Home/Index">
-                    <img src="~/Content/image/logo.jpg"/></a>
-                    @*<p class="site-title">@Html.ActionLink("公司logo位置", "Index", "Home")</p>*@
-                </div>
-                <div class="float-right">
-                    @*<section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>*@
-                    <section></section>
-                    <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("首页", "Index", "Home")</li>
-                            <li>@Html.ActionLink("关于", "About", "Home")</li>
-                            <li>@Html.ActionLink("案例", "Contact", "Home")</li>
-                            <li>@Html.ActionLink("核心服务", "Contact", "Home")</li>
-                            <li>@Html.ActionLink("客户", "Contact", "Home")</li>
-                            <li>@Html.ActionLink("联络", "Contact", "Home")</li>
-                        </ul>
-                    </nav>
+        <div id="Header">
+            <div class="top1">
+                <div class="top1a">
+                    <div class="top2">
+                        <a href="~/Home/Index">
+                            <img src="~/Content/image/logo.jpg" alt="test" width="183" height="49" border="0" />
+                        </a>
+                    </div>
+                    <div class="top3">
+                        <div class="top4">厦门</div>
+                        <div class="clear"></div>
+                        <div class="top5">
+                            <ul>
+                                <li>@Html.ActionLink("首页", "Index", "Home")</li>
+                                <li>@Html.ActionLink("关于", "About", "Home")</li>
+                                <li>@Html.ActionLink("案例", "Contact", "Home")</li>
+                                <li>@Html.ActionLink("核心服务", "Contact", "Home")</li>
+                                <li>@Html.ActionLink("客户", "Contact", "Home")</li>
+                                <li>@Html.ActionLink("联络", "Contact", "Home")</li>  
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
             </div>
-        </header>
+            <div class="float">
+                <a href="http://wpa.qq.com/msgrd?v=3&uin=2593015831&site=qq&menu=yes" target="_blank"><div id="qq"></div></a>
+                <div id="gotop" style="display: none;"></div>
+            </div>
+        </div>
+    
         <div id="body">
             @RenderSection("featured", required: false)
             <section class="content-wrapper main-content clear-fix">
                 @RenderBody()
             </section>
         </div>
-        <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - 硕美传媒</p>
+        
+        <div id="Footer">
+            <div class="Footer1">
+                <div class="Footer2">
+                    <div class="Footer4">联系我们</div>
+                    <table border="0" cellpadding="0" cellspacing="5" class="c2" width="100%">
+                        <tbody>
+                            <tr>
+                                <td height="31" width="6%">
+                                    <img height="31" src="../../Content/image/phone.png" width="31"></td>
+                                <td class="f22" width="44%">
+                                    0592-8386 6191</td>
+                            </tr>
+                            <tr>
+                                <td height="31">
+                                    <img height="31" src="../../Content/image/qq.png" width="31"></td>
+                                <td class="f15">
+                                    业务QQ：2593015831</td>
+                                <td>
+                                    <img height="31" src="../../Content/image/InvestGames.png" width="31"></td>
+                                <td class="f15">
+                                    微信公众号：ucidesign</td>
+                            </tr>
+                            <tr>
+                                <td height="31">
+                                    <img height="31" src="../../Content/image/email.png" width="31"></td>
+                                <td class="f15">
+                                    邮箱：chinalhcz@126.com</td>
+                                <td>
+                                    <img height="31" src="../../Content/image/wechat.png" width="31"></td>
+                                <td class="f15">
+                                    总监微信：szlhcz</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+                </div>
+                
+                <div class="Footer3">
+                    <div class="Footer5"></div>
+                    <div class="Footer6"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="Footer7">
+                    <div class="clear-fix"></div>
+                    <div class="Footer8">
+                        <div class="Footer9 m_bottom06">友情链接</div>
+                        <div class="Footer9"><a style="color: #c9caca;" href="http://www.somayad.com">联系我们</a></div>
+                    </div>
+                    <div class="Footer10" style="line-height: 25px; font-size: 12.5px;">
+                        <a href="http://www.baidu.com">百度</a>&nbsp;|&nbsp;
+                        <a href="http://www.apple.com">苹果</a>
+                    </div>
                 </div>
             </div>
-        </footer>
+            
+            <div class="Footer11">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td width="418">
+                                厦门硕美广告有限公司版权所有&nbsp; 闽ICP备06052352号</td>
+                            <td width="25">
+                                &nbsp;</td>
+                            <td width="437">
+                                行业关键词：厦门广告公司 &nbsp;厦门广告设计公司 &nbsp;厦门设计公司 &nbsp;厦门vi设计</td>
+                            <td width="10">
+                                &nbsp;</td>
+                            <td>
+                                网站地图</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="Footer12">
+                    @*站长统计，需修改*@
+                    @*<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1254766003'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1254766003%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                    <span id="cnzz_stat_icon_1254766003">
+                        <a href="http://www.cnzz.com/stat/website.php?web_id=1254766003" target="_blank" title="站长统计">
+                            <img border="0" hspace="0" vspace="0" src="../../Content/image/pic.gif">
+                        </a>
+                    </span>
+                    <script src="" type="text/javascript"></script>
+                    <script src="" charset="utf-8" type="text/javascript"></script>*@
+                </div>
+            </div>
+        </div>
 
         @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/website")
         @RenderSection("scripts", required: false)
+        
+        <script type="text/javascript">
+            //浮动导航
+            function float_nav(dom) {
+                var right_nav = $(dom);
+                var nav_height = right_nav.height();
+                function right_nav_position(bool) {
+                    var window_height = $(window).height();
+                    var nav_top = (window_height - nav_height) / 2;
+                    if (bool) {
+                        right_nav.stop(true, false).animate({ top: nav_top + $(window).scrollTop() }, 0);
+                    } else {
+                        right_nav.stop(true, false).animate({ top: nav_top }, 0);
+                    }
+                    right_nav.show();
+                }
+
+                if (!+'\v1' && !window.XMLHttpRequest) {
+                    $(window).bind('scroll resize', function () {
+                        if ($(window).scrollTop() > 0) {
+                            right_nav_position(true);
+                        } else {
+                            right_nav.hide();
+                        }
+                    });
+                } else {
+                    $(window).bind('scroll resize', function () {
+                        if ($(window).scrollTop() > 0) {
+                            right_nav_position();
+                        } else {
+                            right_nav.hide();
+                        }
+                    });
+                }
+            }
+            float_nav('#float');
+        </script>
     </body>
 </html>
+
