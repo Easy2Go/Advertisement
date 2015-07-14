@@ -178,6 +178,8 @@
     <Content Include="Content\image\pic.gif" />
     <Content Include="Content\themes\base\base.css" />
     <Content Include="Content\themes\base\css.css" />
+    <Content Include="Content\themes\base\images\banner_sort.png" />
+    <Content Include="Content\themes\base\images\banner_sort_active.png" />
     <Content Include="Content\themes\base\images\dian.png" />
     <Content Include="Content\image\email.png" />
     <Content Include="Content\themes\base\images\f1.gif" />
@@ -244,6 +246,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\themes\base\kinMaxShow.css" />
     <Content Include="Content\themes\base\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -253,6 +256,7 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\jquery.kinMaxShow-1.1.min.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
@@ -262,6 +266,8 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\jquery.kinMaxShow-1.1.js" />
+    <Content Include="Scripts\website\kinMaxShow.js" />
     <Content Include="Scripts\website\layout.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -306,6 +312,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Uploads\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
