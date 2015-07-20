@@ -28,6 +28,7 @@ namespace Advertisement
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
             bundles.Add(new StyleBundle("~/Content/kinMaxShow").Include("~/Content/themes/base/kinMaxShow.css"));
+            bundles.Add(new StyleBundle("~/Content/goodList").Include("~/Content/themes/base/goodList.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/customer").Include(
                         "~/Content/themes/base/base.css",

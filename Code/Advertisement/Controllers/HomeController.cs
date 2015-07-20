@@ -22,6 +22,11 @@ namespace Advertisement.Controllers
             return View();
         }
 
+        public ActionResult Project()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

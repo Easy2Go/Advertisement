@@ -1,131 +1,181 @@
 ﻿@Styles.Render("~/Content/kinMaxShow")
+@Styles.Render("~/Content/goodList")
 @{
     ViewBag.Title = "硕美传媒";
 }
 @section featured {
 
-    <style type="text/css">
-        /*添加滑动背景颜色*/
-        .goods_list li .a1:hover {
-            background-color: #808E95;
-        }
-
-        .goods_list li .a2:hover {
-            background-color: #F5A200;
-        }
-
-        .goods_list li .a3:hover {
-            background-color: #0075C2;
-        }
-
-        .goods_list li .a4:hover {
-            background-color: #00AFEC;
-        }
-
-        .goods_list li .a5:hover {
-            background-color: #ED6D0F;
-        }
-
-        .goods_list li .a6:hover {
-            background-color: #B01E32;
-        }
-
-        .goods_list li .a7:hover {
-            background-color: #FDD000;
-        }
-
-        .goods_list li .a8:hover {
-            background-color: #2E77CE;
-        }
-
-        .goods_list li .a9:hover {
-            background-color: #51C4A6;
-        }
-
-        .goods_list li .a10:hover {
-            background-color: #1B944B;
-        }
-
-        .goods_list li .a11:hover {
-            background-color: #BC121A;
-        }
-
-        .goods_list li .a12:hover {
-            background-color: #F6AB00;
-        }
-    </style>
-
     <div style="position: relative; width: 1280px;">
         <div id="kinMaxShow" style="width: 100%; height: 533px; position: relative; overflow: visible; visibility: visible; display: block;">
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122054.jpg" /></div>
+                <img src="/Images/Uploads/20150417122054.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122121.jpg" /></div>
+                <img src="/Images/Uploads/20150417122121.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122144.jpg" /></div>
+                <img src="/Images/Uploads/20150417122144.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122215.jpg" /></div>
+                <img src="/Images/Uploads/20150417122215.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122248.jpg" /></div>
+                <img src="/Images/Uploads/20150417122248.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122331.jpg" /></div>
+                <img src="/Images/Uploads/20150417122331.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417114930.jpg" /></div>
+                <img src="/Images/Uploads/20150417114930.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150330185548.jpg" /></div>
+                <img src="/Images/Uploads/20150330185548.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122406.jpg" /></div>
+                <img src="/Images/Uploads/20150417122406.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122501.jpg" /></div>
+                <img src="/Images/Uploads/20150417122501.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122528.jpg" /></div>
+                <img src="/Images/Uploads/20150417122528.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122556.jpg" /></div>
+                <img src="/Images/Uploads/20150417122556.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122643.jpg" /></div>
+                <img src="/Images/Uploads/20150417122643.jpg" />
+            </div>
             <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417122620.jpg" /></div>
+                <img src="/Images/Uploads/20150417122620.jpg" />
+            </div>
         </div>
     </div>
 
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>@ViewBag.Title.</h1>
-                <h2>@ViewBag.Message</h2>
-            </hgroup>
-            <p>
-                To learn more about ASP.NET MVC visit
-                <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC.
-                If you have any questions about ASP.NET MVC visit
-                <a href="http://forums.asp.net/1146.aspx/1?MVC" title="ASP.NET MVC Forum">our forums</a>.
-            </p>
+    <div id="Box">
+        <div class="box1">
+            <ul>
+                @*<li>|</li>*@
+                <li class="pl170">
+
+                    <a href="http://sz4a.cn/jituan.html">品牌管理   </a></li>
+                <li class="pl175">|</li>
+                <li class="pl170">
+
+                    <a href="http://sz4a.cn/touzi.html">视觉传达 </a></li>
+                <li class="pl170">|</li>
+                <li class="pl170">
+
+                    <a href="http://sz4a.cn/keji.html">活动公关 </a></li>
+                @* <li class="pl40">|</li><li class="pl40">
+	 
+	  <a href="http://sz4a.cn/hotel.html">	 
+	 
+	 
+	 酒店 餐饮 家具 </a></li>
+     <li class="pl40">|</li><li class="pl40">
+	 
+	  <a href="http://sz4a.cn/shishang.html">	 
+	 
+	 
+	 时尚 健康 快消 </a></li>
+     <li class="pl40">|</li>	 	 <li class="pl40" style="padding-left:38px;">
+	 	  <a href="http://sz4a.cn/wenhua.html">	
+	 
+	 文化 教育 政府 </a></li>
+	      <li class="pl40" style="padding-left:39px;">|</li>*@
+            </ul>
         </div>
-    </section>
+        @* 推荐案例 *@
+        @Html.Partial("CommendProject")
+        <div class="clear"></div>
+        <div class="box3">
+            <img src="/Images/Uploads/20150416130447.jpg" width="1280" height="372">
+        </div>
+        
+        @* 部分客户 *@
+        @Html.Partial("CustomerList")
+
+        <div class="box7">
+            <ul>
+                <li class="t1">关于我们</li>
+                <li>联合创智成立于2005年，专注为客户创造和管理品牌，提供从品牌战略、品牌设计（品牌vi设计、环境空间导示设计、包装设计、网络设计与推广）到内部品牌导入、品牌管理与执行。</li>
+            </ul>
+        </div>
+        <div class="box8">
+            <div class="t2">业务单元</div>
+
+            <div style="margin-left: 10px; font-size: 14px; color: #808080; line-height: 28px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody>
+                        <tr>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/about.htm">品牌战略咨询</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/logo.htm">品牌VI设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top">
+                                <a href="http://sz4a.cn/home/clients.htm">网站设计与建设</a></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/Solutions.htm">企业标志设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/sevice.htm">画册设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top">
+                                <a href="http://sz4a.cn/home/logo.htm">专卖店设计</a></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/logo1.htm">产品包装设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/logo3.htm">导示规划设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top">
+                                <a href="http://sz4a.cn/home/logo2.htm">公关活动策划执行</a></td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/logo6.htm">企业商标设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top" width="85">
+                                <a href="http://sz4a.cn/home/logo4.htm">深圳VI设计</a></td>
+                            <td align="center" valign="top" width="25">|</td>
+                            <td valign="top">
+                                <a href="http://sz4a.cn/home/logo6.htm">广告设计公司</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+            </div>
+
+        </div>
+        <div class="box9">
+            <div class="t3">新闻动态</div>
+            <ul>
+                <li>
+                    <a href="http://sz4a.cn/news/20150707143931.html">印度制药企业雷迪博士实验室(</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150706210501.html">东京马拉松（Tokyo Ma</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150701104235.html">多伦多机场快线 (UP Ex</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150701104116.html">国际自行车联盟（UCI）新的</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150630100021.html">宝马旗下MINI品牌重塑 采</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150630095852.html">GDC Show 在内蒙古【</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150629175826.html">庆祝同性婚姻合法，苹果总部挂</a></li>
+                <li>
+                    <a href="http://sz4a.cn/news/20150629175533.html">著名胶制品生产商麦可贴启用新</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
 }
-<h3>We suggest the following:</h3>
-<ol class="round">
-    <li class="one">
-        <h5>Getting Started</h5>
-        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-        enables a clean separation of concerns and that gives you full control over markup
-        for enjoyable, agile development. ASP.NET MVC includes many features that enable
-        fast, TDD-friendly development for creating sophisticated applications that use
-        the latest web standards.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
-    </li>
-
-    <li class="two">
-        <h5>Add NuGet packages and jump-start your coding</h5>
-        NuGet makes it easy to install and update free libraries and tools.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245153">Learn more…</a>
-    </li>
-
-    <li class="three">
-        <h5>Find Web Hosting</h5>
-        You can easily find a web hosting company that offers the right mix of features
-        and price for your applications.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
-    </li>
-</ol>

@@ -178,6 +178,7 @@
     <Content Include="Content\image\pic.gif" />
     <Content Include="Content\themes\base\base.css" />
     <Content Include="Content\themes\base\css.css" />
+    <Content Include="Content\themes\base\goodList.css" />
     <Content Include="Content\themes\base\images\banner_sort.png" />
     <Content Include="Content\themes\base\images\banner_sort_active.png" />
     <Content Include="Content\themes\base\images\dian.png" />
@@ -309,10 +310,14 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Intranet\Admin\Index.cshtml" />
+    <Content Include="Views\Shared\CustomerList.cshtml" />
+    <Content Include="Views\Home\Project.cshtml" />
+    <Content Include="Views\Shared\CommendProject.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\Uploads\" />
+    <Folder Include="Views\Common\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
