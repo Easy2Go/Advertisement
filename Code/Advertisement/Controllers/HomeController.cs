@@ -27,6 +27,26 @@ namespace Advertisement.Controllers
             return View();
         }
 
+        public ActionResult Industry()
+        {
+            return View();
+        }
+
+        public ActionResult Profession()
+        {
+            return View();
+        }
+
+        public ActionResult Service()
+        {
+            return View();
+        }
+
+        public ActionResult Customer()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

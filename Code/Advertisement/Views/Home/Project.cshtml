@@ -4,33 +4,24 @@
 }*@
 @Styles.Render("~/Content/kinMaxShow")
 @Styles.Render("~/Content/goodList")
-
-<div id="Box">
-    <div style="position: relative; width: 1280px;">
-        <div id="kinMaxShow2" style="width: 100%; height: 294px; position: relative; overflow: visible; visibility: visible; display: block;">
-            <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417193915.jpg" />
-            </div>
-            <div class="KMSPrefix_kinMaxShow_image_item">
-                <img src="/Images/Uploads/20150417193956.jpg" />
+@section featured {
+    <div id="Box">
+        <div style="position: relative; width: 1280px;">
+            <div id="kinMaxShow2" style="width: 100%; height: 294px; position: relative; overflow: visible; visibility: visible; display: block;">
+                <div class="KMSPrefix_kinMaxShow_image_item">
+                    <img src="/Images/Uploads/20150417193915.jpg" />
+                </div>
+                <div class="KMSPrefix_kinMaxShow_image_item">
+                    <img src="/Images/Uploads/20150417193956.jpg" />
+                </div>
             </div>
         </div>
+        @Html.Partial("ProjectBanner")
+        <div class="clear"></div>
+        @* 推荐案例 *@
+        @Html.Partial("CommendProject")
+        <div class="clear"></div>
+        @* 部分客户 *@
+        @Html.Partial("CustomerList")
     </div>
-    <div class="tjal1">
-        <a href="">
-            <img src="/Content/themes/base/images/tjal.png" width="426" height="157"></a>
-    </div>
-    <div class="tjal1">
-        <a href="">
-            <img src="/Content/themes/base/images/hyfl.png" width="426" height="157"></a>
-    </div>
-    <div class="tjal1">
-        <a href="">
-            <img src="/Content/themes/base/images/zyfl.png" width="426" height="157"></a>
-    </div>
-    @* 推荐案例 *@
-    @Html.Partial("CommendProject")
-
-    @* 部分客户 *@
-    @Html.Partial("CustomerList")
-</div>
+}
